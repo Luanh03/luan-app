@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Header from '../components/Header';
+import Bio from '../components/Bio';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
@@ -18,9 +19,10 @@ export default function Home(){
     }
 
     return(
-        <Grid style={tema}>
+        <Grid className="Main"style={tema}>
             <button onClick={mudarTema}>{escuro === true ? <LightModeIcon /> : <DarkModeIcon />}</button>
             <Header />
+            <Bio />
         </Grid>
     );
 }
