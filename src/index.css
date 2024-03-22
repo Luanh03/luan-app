@@ -9,34 +9,78 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.typing-animation{
-  animation: blinkCursor 500ms infinite normal;
-}
-
 .BoxHeader{
   width:'100%';
   height: '100vh';
   display: 'flex';
+  justify-content: center;
 }
 
 .GridHeader{
   text-align: center;
 }
 
+@keyframes typingHeader{
+  from{
+    width: 0;
+  }
+  to{
+    width: 12em;
+  }
+}
+
+@keyframes blinkCursorHeader{
+  from{
+    border-right: rgba(255, 255, 255, 0.75);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
+.typing-animation-Header{
+  animation: blinkCursorHeader 700ms infinite normal steps(50), 
+  typingHeader 5s steps(50) normal both;
+}
+
 .HeaderTitle{
+  display: inline-block;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 570%;
-  height: 60px;
+  height: 100px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typingSubHeader{
+  from{
+    width: 0;
+  }
+  to{
+    width: 14em;
+  }
+}
+
+.typing-animation-SubHeader{
+    animation: blinkCursorHeader 700ms infinite normal steps(50), 
+    typingSubHeader 5s steps(50) normal both;
 }
 
 .HeaderSubTitle{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-block;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 350%;
-  height: 60px;
+  height: 70px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .HeaderText{
-  font-size: 140%;
+  font-size: 175%;
   font-family: 'Courier New', Courier, monospace;
 }
 

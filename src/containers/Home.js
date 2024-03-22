@@ -10,8 +10,8 @@ export default function Home(){
     const [ escuro, setEscuro ] = React.useState('false');
     
     const tema = {
-        backgroundColor: escuro ? '#111111' : '#CFD8DC',
-        color: escuro ? '#0aff9d' : '#9575CD', 
+        backgroundColor: escuro ? '#CFD8DC' : '#111111',
+        color: escuro ?  '#9575CD' : '#0aff9d', 
     }
 
     function mudarTema(){
