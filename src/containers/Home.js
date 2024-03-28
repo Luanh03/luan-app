@@ -2,6 +2,7 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Header from '../components/Header';
 import Bio from '../components/Bio';
+import Experience from '../components/Experience';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
@@ -23,6 +24,7 @@ export default function Home(){
             <button onClick={mudarTema}>{escuro === true ? <LightModeIcon /> : <DarkModeIcon />}</button>
             <Header />
             <Bio />
+            <Experience />
         </Grid>
     );
 }
