@@ -53,7 +53,7 @@ a:hover{
 }
 
 .GridHeader{
-  margin-top: 147px;
+  padding: 250px 0 190px;
 }
 
 @keyframes typingHeader{
@@ -116,10 +116,11 @@ a:hover{
 .HeaderText{
   font-size: 175%;
   font-family: 'Courier New', Courier, monospace;
+  padding: 70px;
 }
 
 .BioGrid{
-  margin-top: 147px;
+  padding: 250px 40px 190px;
 }
 
 .BioTitle{
@@ -131,10 +132,11 @@ a:hover{
 .BioText{
   font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
+  padding: 50px;
 }
 
 .GridExp{
-  margin-top: 147px;
+  padding: 250px 0 190px;
 }
 
 .TitleExp{
@@ -165,7 +167,7 @@ a:hover{
 .GridProfessional{
   justify-content: space-around;
   align-items: center;
-  margin-top: 147px;
+  padding: 250px 0 190px;
 }
 
 .TitleProfessional{
@@ -208,15 +210,36 @@ a:hover{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 200px;
+  row-gap: 100px;
+  padding: 85px 180px;
 }
 
-.ItemSkills{
-  width: 240px;
-  height: 24vh;
+.ImgSkill{
+  width: 220px;
 }
 
-.TextSkills{
-  font-size: 150%;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 120%; 
+.GridContacts{
+  background-color: cadetblue;
+  height: 15vh;
+}
+
+.TitleContacts{
+  font-size: 250%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ListContacts{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ImgContacts{
+  width: 90px;
+  transition: 0.5s;
+}
+
+.ImgContacts:hover{
+  opacity: 0.4;
 }

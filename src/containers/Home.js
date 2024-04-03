@@ -5,12 +5,15 @@ import Bio from '../components/Bio';
 import Experience from '../components/Experience';
 import Professional from '../components/Professional';
 import Skills from '../components/Skills';
+import Contacts from '../components/Contacts';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Home(){
 
+    const navigate = useNavigate();
     const [ escuro, setEscuro ] = React.useState('false');
     
     const tema = {
@@ -28,7 +31,7 @@ export default function Home(){
                 <button className="ButtonNavBar" onClick={mudarTema}>{escuro === true ? <LightModeIcon /> : <DarkModeIcon />}</button>
                 <a  className="LogoNavBar" href="/">LUAN</a>
                 <ul className="ListNavBar">
-                    <li className="ItemNavBar"><a href="/">Início</a></li>
+                    <li className="ItemNavBar"><a>Início</a></li>
                     <li className="ItemNavBar"><a href="/">Sobre</a></li>
                     <li className="ItemNavBar"><a href="/">Projetos</a></li>
                     <li className="ItemNavBar"><a href="/">Carreira Profissional</a></li>
@@ -41,6 +44,7 @@ export default function Home(){
             <Experience />
             <Professional />
             <Skills />
+            <Contacts />
         </Grid>
     );
 }
