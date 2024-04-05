@@ -145,10 +145,11 @@ a:hover{
   letter-spacing: 3px;
 }
 
-.ImagemList{
+.ImagemListExp{
   list-style: none;
   display: flex;
   justify-content: space-around;
+  padding: 70px;
 }
 
 .ImagemExp{
@@ -178,7 +179,7 @@ a:hover{
 
 .ListProfessional{
   list-style: none;
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
   align-items: center;
   margin-top: 85px;
@@ -220,7 +221,6 @@ a:hover{
 }
 
 .GridContacts{
-  background-color: cadetblue;
   height: 15vh;
 }
 

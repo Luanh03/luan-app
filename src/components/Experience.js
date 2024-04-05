@@ -6,7 +6,7 @@ export default function Experience(){
     return(
         <Grid className="GridExp">
             <h1 className="TitleExp">Projetos</h1>
-            <ul className="ImagemList">
+            <ul className="ImagemListExp">
                 <li>
                     <img className="ImagemExp"src={LogoDev} />
                     <p className="ImagemTitle">WorkShop</p>
