@@ -133,6 +133,8 @@ a:hover{
   font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
   padding: 50px;
+  transform: translate(-900px);
+  opacity: 0;
 }
 
 .GridExp{

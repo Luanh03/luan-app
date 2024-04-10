@@ -1,7 +1,28 @@
 import * as React from 'react';
+import { useLayoutEffect } from 'react';
 import Grid from '@mui/material/Grid';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export default function Bio(){
+
+    useLayoutEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.to(".BioText", {
+            x: 0,
+            opacity: 1,
+            scrollTrigger: {
+                trigger: ".BioText",
+                scrub: true,
+                start: "top 510px",
+                end: "bottom 620px",
+            }
+        })
+        return () => {
+            gsap.killTweensOf(".BioText");
+        }
+    }, [])
+
     return(
         <Grid className="BioGrid">
             <h1 className="BioTitle">Sobre mim</h1>

@@ -2,6 +2,7 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 
 export default function Header(){
+    
     return(
             <Grid className="GridHeader">
                 <h1 className="HeaderTitle typing-animation-Header">Hi, I'm Luan Henrique</h1>     
