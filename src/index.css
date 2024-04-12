@@ -155,9 +155,9 @@ a:hover{
 }
 
 .ImagemExp{
-  width: 365px;
-  height: 385px;
-  justify-content: space-between;
+  height: 45vh;
+  width: 700px;
+  object-fit: cover;
 }
 
 .ImagemTitle{

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import { LogoDev } from '@mui/icons-material/';
+import Workshop from '../images/Wokshop.jpg';
 
 export default function Experience(){
     return(
@@ -8,11 +8,11 @@ export default function Experience(){
             <h1 className="TitleExp">Projetos</h1>
             <ul className="ImagemListExp">
                 <li>
-                    <img className="ImagemExp"src={LogoDev} />
+                    <img className="ImagemExp"src={Workshop} />
                     <p className="ImagemTitle">WorkShop</p>
                 </li>
                 <li>
-                    <img className="ImagemExp" src={LogoDev} />
+                    <img className="ImagemExp" src={Workshop} />
                     <p className="ImagemTitle">Portfólio</p>
                 </li>
             </ul>

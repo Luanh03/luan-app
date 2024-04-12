@@ -28,9 +28,9 @@ export default function Bio(){
             <h1 className="BioTitle">Sobre mim</h1>
             <p className="BioText">Me chamo Luan Henrique, sou um jovem apaixonado por tecnologia e por linhas de código.
                 Atualmente estou no 6° período da graduação de Sistemas da Informação
-                pelo Centro Universitário do Distrito Federal (UDF). Habitante de Brasília, Distrito Federal.
-                Sempre estou buscando aprimorar minhas técnicas e meus conhecimentos através de cursos 
-                voltados para as áreas que eu tenho interesse.    
+                pelo Centro Universitário do Distrito Federal (UDF). Sempre estou buscando aprimorar minhas técnicas e meus conhecimentos através de cursos 
+                voltados para as áreas que eu tenho interesse. Abstrair e solucionar problemas é o que me motiva a continuar nesse caminho, isto para mim vai muito além de apenas trabalho
+                estar em contato com o código é algo que eu realmente trato como além de trabalho, algo que sou obcecado.  
             </p>
         </Grid>
     );
