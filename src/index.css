@@ -137,69 +137,56 @@ a:hover{
   opacity: 0;
 }
 
-.GridExp{
+.GridProj{
   padding: 250px 0 190px;
 }
 
-.TitleExp{
+.TitleProj{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 500%;
   letter-spacing: 3px;
 }
 
-.ImagemListExp{
-  list-style: none;
+.CardProj{
+  width: 300px;
+  height: 300px;
+  background-color: var(--soft-white);
+  color: var(--gray);
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #22222270;
+  padding: 20px;
   display: flex;
-  justify-content: space-around;
-  padding: 70px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.ImagemExp{
-  height: 45vh;
-  width: 700px;
+.CardProj h3{
+  font-size: 150%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.CardProj img{
+  width: 300px;
   object-fit: cover;
 }
 
-.ImagemTitle{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 250%;
-  white-space: wrap;
-  letter-spacing: 3px;
-}
-
-.GridProfessional{
-  justify-content: space-around;
+.CardProj_Footer{
+  width: 100%;
+  display: flex;
   align-items: center;
-  padding: 250px 0 190px;
+  justify-content: space-between;
 }
 
-.TitleProfessional{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 500%;
-  letter-spacing: 3px;
-}
-
-.ListProfessional{
-  list-style: none;
-  /* display: flex; */
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 85px;
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
-
-.ImgProfessional{
-  height: 21vh;
-}
-
-.TextProfessional{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 120%;  
+.CardProj_Icons {
+  display: flex;
+  gap: 10px;
+  color: var(--red);
+  font-size: 1.5rem;
 }
 
 .GridSkills{
-  margin-top: 147px;
+  padding: 250px 40px 190px;
 }
 
 .TitleSkills{
@@ -220,28 +207,4 @@ a:hover{
 
 .ImgSkill{
   width: 220px;
-}
-
-.GridContacts{
-  height: 15vh;
-}
-
-.TitleContacts{
-  font-size: 250%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.ListContacts{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-.ImgContacts{
-  width: 90px;
-  transition: 0.5s;
-}
-
-.ImgContacts:hover{
-  opacity: 0.4;
 }

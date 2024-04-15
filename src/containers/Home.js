@@ -2,10 +2,8 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Header from '../components/Header';
 import Bio from '../components/Bio';
-import Experience from '../components/Experience';
-import Professional from '../components/Professional';
+import Projects from '../components/Projects';
 import Skills from '../components/Skills';
-import Contacts from '../components/Contacts';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useNavigate } from 'react-router-dom';
@@ -40,10 +38,8 @@ export default function Home(){
             </Grid>
             <Header />
             <Bio />
-            <Experience />
-            <Professional />
+            <Projects />
             <Skills />
-            <Contacts />
         </Grid>
     );
 }

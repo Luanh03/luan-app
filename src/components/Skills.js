@@ -13,16 +13,16 @@ export default function Skills(){
     return(
         <Grid className="GridSkills">
             <h1 className="TitleSkills">Habilidades</h1>
-            <ul className="ListSkills">
-                <li><img className="ImgSkill" src={CSharp} /></li>
-                <li><img className="ImgSkill" src={CSS} /></li>
-                <li><img className="ImgSkill" src={Django} /></li>
-                <li><img className="ImgSkill" src={Git} /></li>
-                <li><img className="ImgSkill" src={HTML} /></li>
-                <li><img className="ImgSkill" src={SQLServer} /></li>
-                <li><img className="ImgSkill" src={Python} /></li>
-                <li><img className="ImgSkill" src={ReactJS} /></li>
-            </ul>
+            <section className="ListSkills">
+                <img className="ImgSkill" src={CSharp} />
+                <img className="ImgSkill" src={CSS} />
+                <img className="ImgSkill" src={Django} />
+                <img className="ImgSkill" src={Git} />
+                <img className="ImgSkill" src={HTML} />
+                <img className="ImgSkill" src={SQLServer} />
+                <img className="ImgSkill" src={Python} />
+                <img className="ImgSkill" src={ReactJS} />
+            </section>
         </Grid>
     );
 }
