@@ -29,11 +29,11 @@ export default function Home(){
                 <a  className="LogoNavBar" href="/">LUAN</a>
                 <ul className="ListNavBar">
                     <li className="ItemNavBar"><a>Início</a></li>
-                    <li className="ItemNavBar"><a href="/">Sobre</a></li>
-                    <li className="ItemNavBar"><a href="/">Projetos</a></li>
-                    <li className="ItemNavBar"><a href="/">Carreira Profissional</a></li>
-                    <li className="ItemNavBar"><a href="/">Habilidades</a></li>
-                    <li className="ItemNavBar"><a href="/">Contatos</a></li>
+                    <li className="ItemNavBar"><a>Sobre</a></li>
+                    <li className="ItemNavBar"><a>Projetos</a></li>
+                    <li className="ItemNavBar"><a>Carreira Profissional</a></li>
+                    <li className="ItemNavBar"><a>Habilidades</a></li>
+                    <li className="ItemNavBar"><a>Contatos</a></li>
                 </ul>
             </Grid>
             <Header />
