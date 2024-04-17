@@ -8,21 +8,22 @@ import { FaGitAlt } from "react-icons/fa";
 
 export default function Projects(){
     return(
-        
         <Grid className="GridProj">
             <h1 className="TitleProj">Projetos</h1>
-            <section className="CardProj">
-                <h3>Workshop</h3>
-                <img src={Workshop} />
-                <div className="CardProj_Footer">
-                    <div className="CardProj_Icons">
-                        <TbBrandCSharp />
-                        <SiMicrosoftsqlserver />
-                        <FaGitAlt />
+            <Grid className="CardProj_Grid">
+                <section className="CardProj">
+                    <h3>Workshop</h3>
+                    <img src={Workshop} />
+                    <div className="CardProj_Footer">
+                        <div className="CardProj_Icons">
+                            <TbBrandCSharp />
+                            <SiMicrosoftsqlserver />
+                            <FaGitAlt />
+                        </div>
+                        <button className="CardProj_Button">Rota</button>
                     </div>
-                    <button>Rota</button>
-                </div>
-            </section>
+                </section>
+            </Grid>
         </Grid>
     );
 }

@@ -147,9 +147,16 @@ a:hover{
   letter-spacing: 3px;
 }
 
+.CardProj_Grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 97px;
+}
+
 .CardProj{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-color: var(--soft-white);
   color: var(--gray);
   border-radius: 8px;
@@ -167,7 +174,7 @@ a:hover{
 }
 
 .CardProj img{
-  width: 300px;
+  width: 400px;
   object-fit: cover;
 }
 
@@ -184,6 +191,19 @@ a:hover{
   color: var(--red);
   font-size: 1.5rem;
 }
+
+.CardProj_Button{
+  width: 50px;
+  border-radius: 8px;
+  font-size: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 5px 0 5px;  
+}
+
+.CardProj_Button:hover{
+  background-color: #9575CD;
+}
+
 
 .GridSkills{
   padding: 250px 40px 190px;
