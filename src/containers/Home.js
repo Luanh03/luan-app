@@ -1,13 +1,15 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import Header from '../components/Header';
-import Bio from '../components/Bio';
-import Projects from '../components/Projects';
-import Skills from '../components/Skills';
+import Button from '@mui/material/Button';
+import Header from './Header.js';
+import Bio from './Bio.js';
+import Projects from './Projects.js';
+import Skills from './Skills.js';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useNavigate } from 'react-router-dom';
 
+const navigate = useNavigate;
 
 export default function Home(){
 
