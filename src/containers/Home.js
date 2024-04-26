@@ -27,15 +27,15 @@ export default function Home(){
     return(
         <Grid className="Main"style={tema}>
             <Grid className="GridNavBar">
-                <button className="ButtonNavBar" onClick={mudarTema}>{escuro === true ? <LightModeIcon /> : <DarkModeIcon />}</button>
-                <a  className="LogoNavBar" href="/">LUAN</a>
-                <ul className="ListNavBar">
-                    <li className="ItemNavBar"><a>Início</a></li>
-                    <li className="ItemNavBar"><a>Sobre</a></li>
-                    <li className="ItemNavBar"><a>Projetos</a></li>
-                    <li className="ItemNavBar"><a>Carreira Profissional</a></li>
-                    <li className="ItemNavBar"><a>Habilidades</a></li>
-                    <li className="ItemNavBar"><a>Contatos</a></li>
+                <button onClick={mudarTema}>{escuro === true ? <LightModeIcon /> : <DarkModeIcon />}</button>
+                <a href="/">LUAN</a>
+                <ul>
+                    <li><a>Início</a></li>
+                    <li><a>Sobre</a></li>
+                    <li><a>Projetos</a></li>
+                    <li><a>Carreira Profissional</a></li>
+                    <li><a>Habilidades</a></li>
+                    <li><a>Contatos</a></li>
                 </ul>
             </Grid>
             <Header />

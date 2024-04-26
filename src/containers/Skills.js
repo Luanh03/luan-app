@@ -12,16 +12,41 @@ import ReactJS from '../images/ReactJS.svg';
 export default function Skills(){
     return(
         <Grid className="GridSkills">
-            <h1 className="TitleSkills">Habilidades</h1>
-            <section className="ListSkills">
-                <img className="ImgSkill" src={CSharp} />
-                <img className="ImgSkill" src={CSS} />
-                <img className="ImgSkill" src={Django} />
-                <img className="ImgSkill" src={Git} />
-                <img className="ImgSkill" src={HTML} />
-                <img className="ImgSkill" src={SQLServer} />
-                <img className="ImgSkill" src={Python} />
-                <img className="ImgSkill" src={ReactJS} />
+            <h1>Skills</h1>
+            <section>
+                <div className="DivSkills">
+                    <h1>CSHARP</h1>
+                    <img src={CSharp} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
+                <div className="DivSkills">
+                    <img className="ImgSkill" src={CSS} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
+                <div className="DivSkills">
+                    <img className="ImgSkill" src={HTML} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
+                <div className="DivSkills">
+                    <img className="ImgSkill" src={SQLServer} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
+                <div className="DivSkills">
+                    <img className="ImgSkill" src={Python} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
+                <div className="DivSkills">
+                    <img className="ImgSkill" src={Django} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
+                <div className="DivSkills">
+                    <img className="ImgSkill" src={Git} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
+                <div className="DivSkills">
+                    <img className="ImgSkill" src={ReactJS} />
+                    <p>Habilidade aprendida na faculdade</p>
+                </div>
             </section>
         </Grid>
     );

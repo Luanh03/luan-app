@@ -9,9 +9,9 @@ import { FaGitAlt } from "react-icons/fa";
 export default function Projects(){
     return(
         <Grid className="GridProj">
-            <h1 className="TitleProj">Projetos</h1>
+            <h1>Projects</h1>
             <Grid className="CardProj_Grid">
-                <section className="CardProj">
+                <section>
                     <h3>Workshop</h3>
                     <img src={Workshop} />
                     <div className="CardProj_Footer">

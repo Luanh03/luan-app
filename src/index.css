@@ -23,26 +23,26 @@ body {
   height: 8vh;
 }
 
-a{
+.GridNavBar > a{
   text-decoration: none;
   transition: 0.3s;
 }
 
-a:hover{
+.GridNavBar > a:hover{
   opacity: 0.7;
 }
 
-.ListNavBar{
+.GridNavBar > ul{
   list-style: none;
   display: flex;
 }
 
-.ItemNavBar{
+.GridNavBar > ul > li{
   letter-spacing: 3px;
   margin-left: 32px;
 }
 
-.ButtonNavBar{
+.GridNavBar > button{
   left: 850px;
   font-size: 18px;
   font-weight: 600;
@@ -79,7 +79,7 @@ a:hover{
   typingHeader 5s steps(50) normal both;
 }
 
-.HeaderTitle{
+.GridHeader > h1{
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 570%;
@@ -103,7 +103,7 @@ a:hover{
     typingSubHeader 5s steps(50) normal both;
 }
 
-.HeaderSubTitle{
+.GridHeader > h2{
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 350%;
@@ -113,7 +113,7 @@ a:hover{
   overflow: hidden;
 }
 
-.HeaderText{
+.GridHeader > p{
   font-size: 175%;
   font-family: 'Courier New', Courier, monospace;
   padding: 70px;
@@ -123,13 +123,13 @@ a:hover{
   padding: 250px 40px 190px;
 }
 
-.BioTitle{
+.BioGrid > h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 500%;
   letter-spacing: 3px;
 }
 
-.BioText{
+.BioGrid > p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
   padding: 50px;
@@ -141,7 +141,7 @@ a:hover{
   padding: 250px 0 190px; 
 }
 
-.TitleProj{
+.GridProj > h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 500%;
   letter-spacing: 3px;
@@ -154,7 +154,7 @@ a:hover{
   padding: 97px;
 }
 
-.CardProj{
+.CardProj_Grid > section{
   width: 400px;
   height: 400px;
   background-color: var(--soft-white);
@@ -168,12 +168,12 @@ a:hover{
   justify-content: space-between;
 }
 
-.CardProj h3{
+.CardProj_Grid h3{
   font-size: 150%;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.CardProj img{
+.CardProj_Grid img{
   width: 400px;
   object-fit: cover;
 }
@@ -209,13 +209,13 @@ a:hover{
   padding: 250px 40px 190px;
 }
 
-.TitleSkills{
+.GridSkills > h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 500%;
   letter-spacing: 3px;  
 }
 
-.ListSkills{
+.GridSkills > section{
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -225,6 +225,10 @@ a:hover{
   padding: 85px 180px;
 }
 
-.ImgSkill{
-  width: 220px;
+.DivSkills > h1{
+  font-size: 420%;
+}
+
+.DivSkills > img{
+  width: 100px;
 }

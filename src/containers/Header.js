@@ -5,12 +5,12 @@ export default function Header(){
     
     return(
             <Grid className="GridHeader">
-                <h1 className="HeaderTitle typing-animation-Header">Hi, I'm Luan Henrique</h1>     
-                <h2 className="HeaderSubTitle typing-animation-SubHeader">I'm a FullStack Developer</h2>
-                <p className="HeaderText">Olá, eu sou Luan, Desenvolvedor FullStack.
-                Bem vindo ao meu portfólio, aqui você conhecerá mais sobre mim, meus projetos e minhas habilidades.
-                Você descobrirá que minha paixão por tecnologia vai além de linhas de código.
-                Desenvolvimento Web com conhecimento em amplas habilidades.</p>
+                <h1 className="typing-animation-Header">Hi, I'm Luan Henrique</h1>     
+                <h2 className="typing-animation-SubHeader">I'm a FullStack Developer</h2>
+                <p>Hello, I'm Luan, FullStack Developer.
+                Welcome to my portfolio, here you will learn more about me, my projects and my skills.
+                You will find that my passion for technology goes beyond lines of code, abstracting and solving problems is my motivation.
+                C# and ReactJS Web Development.</p>
             </Grid>
     );
 }

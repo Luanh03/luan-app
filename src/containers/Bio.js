@@ -25,15 +25,15 @@ export default function Bio(){
 
     return(
         <Grid className="BioGrid">
-            <h1 className="BioTitle">Sobre mim</h1>
-            <p className="BioText">Me chamo Luan Henrique, sou um jovem apaixonado por tecnologia e por linhas de código.
-                Atualmente estou no 6° período da graduação de Sistemas da Informação
-                pelo Centro Universitário do Distrito Federal (UDF). Sempre estou buscando aprimorar minhas técnicas e meus conhecimentos através de cursos 
-                voltados para as áreas que eu tenho interesse. Abstrair e solucionar problemas é o que me motiva a continuar nesse caminho, isto para mim vai muito além de apenas trabalho
-                estar em contato com o código é algo que eu realmente trato como além de trabalho, algo que sou obcecado. 
-                Tenho como experiência na área da tecnologia um estágio realizado no Conselho Federal de Engenharia e Agronomia (Confea), usando como principais ferramentas 
-                ASP.NET Core, C#, .NET, Entity Framework, Microsotft Sql Server e Git, desenvolvendo softwares, colaborando em projetos de grande escala, participação na elaboração e 
-                validação dos requisitos de software, acompanhamento de projetos em produção e aquisição de conhecimento prático sobre o ciclo de vida de desenvolvimento de software.
+            <h1>About me</h1>
+            <p>My name is Luan Henrique, I'm a young web developer.
+                I am currently in the 6th period of my Information Systems degree.
+                by the Federal District University Center (UDF). I am always looking to improve my techniques and knowledge through courses.
+                focused on technology areas. Abstracting and solving problems is what motivates me to continue on this path, this for me goes far beyond just work
+                being in touch with code is something I actually treat as beyond work, something I'm obsessed with.
+                I have experience in the area of ​​technology through an internship at the Federal Council of Engineering and Agronomy (Confea), using the main tools
+                ASP.NET Core, C#, .NET, Entity Framework, Microsotft Sql Server and Git, developing software, collaborating on large-scale projects, participating in the preparation and
+                validating software requirements, monitoring projects in production and acquiring practical knowledge about the software development life cycle.
             </p>
         </Grid>
     );
