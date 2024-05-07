@@ -9,9 +9,9 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useNavigate } from 'react-router-dom';
 
-const navigate = useNavigate;
-
 export default function Home(){
+
+    const navigate = useNavigate();
 
     const [ escuro, setEscuro ] = React.useState('false');
     
@@ -30,12 +30,11 @@ export default function Home(){
                 <button onClick={mudarTema}>{escuro === true ? <LightModeIcon /> : <DarkModeIcon />}</button>
                 <a href="/">LUAN</a>
                 <ul>
-                    <li><a>Início</a></li>
-                    <li><a>Sobre</a></li>
-                    <li><a>Projetos</a></li>
-                    <li><a>Carreira Profissional</a></li>
-                    <li><a>Habilidades</a></li>
-                    <li><a>Contatos</a></li>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="#Header">Apresentação</a></li>
+                    <li><a href="#Bio">Sobre</a></li>
+                    <li><a href="#Projects">Projetos</a></li>
+                    <li><a href="#Skills">Habilidades</a></li>
                 </ul>
             </Grid>
             <Header />

@@ -8,25 +8,25 @@ export default function Bio(){
 
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
-        gsap.to(".BioText", {
+        gsap.to(".BioGrid", {
             x: 0,
             opacity: 1,
             scrollTrigger: {
-                trigger: ".BioText",
+                trigger: ".BioGrid",
                 scrub: true,
                 start: "top 510px",
                 end: "bottom 620px",
             }
         })
         return () => {
-            gsap.killTweensOf(".BioText");
+            gsap.killTweensOf(".BioGrid");
         }
     }, [])
 
     return(
-        <Grid className="BioGrid">
+        <Grid id="Bio" className="BioGrid">
             <h1>About me</h1>
-            <p>My name is Luan Henrique, I'm a young web developer.
+            <p className="BioText">My name is Luan Henrique, I'm a young web developer.
                 I am currently in the 6th period of my Information Systems degree.
                 by the Federal District University Center (UDF). I am always looking to improve my techniques and knowledge through courses.
                 focused on technology areas. Abstracting and solving problems is what motivates me to continue on this path, this for me goes far beyond just work
