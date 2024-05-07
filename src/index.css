@@ -142,10 +142,34 @@ body {
   letter-spacing: 3px;
 }
 
-.BioGrid > p{
+.BioGridInfo{
+  display: flex;
+  gap: 70px;
+}
+
+.BioGridInfo > p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
   padding: 50px;
+}
+
+.GridSkills2 > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  width: 190px;
+  padding: 20px 0 20px 0;
+}
+
+.GridSkills2> section > h2{
+  font-size: 280%;
+}
+
+.GridSkills2 > section > img{
+  height: 70px;
+  width: 40px;
 }
 
 .GridProj{

@@ -3,9 +3,8 @@ import Grid from '@mui/material/Grid';
 import CSharp from '../images/C-sharp.svg';
 import CSS from '../images/CSS3.svg';
 import Django from '../images/Django.svg';
-import Git from '../images/Git.svg';
 import HTML from '../images/HTML5.svg';
-import SQLServer from '../images/SQLServer.svg';
+
 import Python from '../images/Python.svg';
 import ReactJS from '../images/ReactJS.svg';
 import Javascipt from '../images/javascript.svg';
@@ -25,18 +24,10 @@ export default function Skills(){
                 </div>
                 <div className="DivSkills">
                     <h1>SQLServer</h1>
-                    <img src={SQLServer} />
+                    
                     <p>Banco de dados que usei juntamente com o C#, tive a oportunidade de fazer cursos baseados neste banco de dados e com toda a facilidade 
                         e o costume rotineiro de trabalhar com o mesmo fez com o que se tornasse o meu preferido, a partir disso não só utilizando no profissional 
                         mas também no pessoal e acadêmico.
-                    </p>
-                </div>
-                <div className="DivSkills">
-                    <h1>Git</h1>
-                    <img src={Git} />
-                    <p> Linguagem de versionamento que aprendi na faculdade para desenvolvimento de trabalhos e projetos em grupo. Um certo tempo depois esse conhecimentos
-                        foi aproveitado para a minha área profissional pois um dos requisitos era em especifíco a linguagem de versionamento Git para que compartilhamento
-                        do código através da ferramenta GitLab.
                     </p>
                 </div>
                 <div className="DivSkills">
