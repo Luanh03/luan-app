@@ -12,8 +12,10 @@ import ReactJS from '../images/ReactJS.svg';
 import Javascipt from '../images/javascript.svg';
 import MySql from '../images/MySql.svg';
 import SqlServer from '../images/SqlServer.svg';
+import Linkedin from '../images/Linkedin.svg';
+import Github from '../images/Github.svg';
 
-export default function Bio(){
+export default function Bio() {
 
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -32,7 +34,7 @@ export default function Bio(){
         }
     }, [])
 
-    return(
+    return (
         <Grid id="Bio" className="BioGrid">
             <h1 class="line">About me</h1>
             <Grid className="BioGridInfo">
@@ -45,7 +47,7 @@ export default function Bio(){
                     ASP.NET Core, C#, .NET, Entity Framework, Microsotft Sql Server and Git, developing software, collaborating on large-scale projects, participating in the preparation and
                     validating software requirements, monitoring projects in production and acquiring practical knowledge about the software development life cycle.
                 </p>
-                <Grid className="GridSkills2">
+                <Grid className="BioGridSkills">
                     <section>
                         <h2>Frontend</h2>
                         <img src={HTML} />
@@ -64,6 +66,11 @@ export default function Bio(){
                     </section>
                 </Grid>
             </Grid>
+            <section className="SectionBioContacts">
+                <h4>My links:</h4>
+                <a href="https://www.linkedin.com/in/luan-henrique-47ab98254/"><img src={Linkedin} /></a>
+                <a href="https://github.com/Luanh03"><img src={Github} /></a>
+            </section>
         </Grid>
     );
 }

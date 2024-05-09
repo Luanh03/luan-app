@@ -160,10 +160,10 @@ body {
 .BioGridInfo > p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
-  padding: 44px;
+  padding: 40px;
 }
 
-.GridSkills2 > section {
+.BioGridSkills > section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,13 +173,37 @@ body {
   padding: 20px 0 20px 0;
 }
 
-.GridSkills2> section > h2{
+.BioGridSkills> section > h2{
   font-size: 280%;
 }
 
-.GridSkills2 > section > img{
+.BioGridSkills > section > img{
   height: 50px;
   width: 35px;
+}
+
+.SectionBioContacts{
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.SectionBioContacts > h4 {
+  font-size: 300%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.SectionBioContacts > a > img{
+  width: 50px;
+}
+
+.SectionBioContacts > a > img{
+  transition: 0.5s;
+}
+
+.SectionBioContacts > a > img:hover{
+  opacity: 0.3;
 }
 
 .GridProj{
