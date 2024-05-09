@@ -68,8 +68,8 @@ export default function Bio() {
             </Grid>
             <section className="SectionBioContacts">
                 <h4>My links:</h4>
-                <a href="https://www.linkedin.com/in/luan-henrique-47ab98254/"><img src={Linkedin} /></a>
-                <a href="https://github.com/Luanh03"><img src={Github} /></a>
+                <a href="https://www.linkedin.com/in/luan-henrique-47ab98254/" target="_blank"><img src={Linkedin} /></a>
+                <a href="https://github.com/Luanh03" target="_blank"><img src={Github} /></a>
             </section>
         </Grid>
     );
