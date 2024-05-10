@@ -7,10 +7,8 @@ export default function Header(){
             <Grid className="GridHeader">
                 <h1 id="Header" className="typing-animation-Header">Hi, I'm Luan Henrique</h1>     
                 <h2 className="typing-animation-SubHeader">I'm a <span style={{ color: 'green' }}>FullStack Developer</span></h2>
-                <p>Hello, I'm Luan,FullStack Developer.
-                Welcome to my portfolio, here you will learn more about me, my projects and my skills.
-                You will find that my passion for technology goes beyond lines of code, abstracting and solving problems is my motivation.
-                 C# and ReactJS FullStack Developer.</p>
+                <p>Hi, I'm Luan - Junior FullStack Developer. Here you can learn a little more about me and you will see that my relationship with technology goes far beyond lines of code, 
+                    abstracting and solving problems is not just a job but it is my motivation, with this I have been making the ideas I dream come true.</p>
             </Grid>
     );
 }

@@ -38,14 +38,12 @@ export default function Bio() {
         <Grid id="Bio" className="BioGrid">
             <h1 class="line">About me</h1>
             <Grid className="BioGridInfo">
-                <p>My name is Luan Henrique, I'm a young web developer.
-                    I am currently in the 6th period of my Information Systems degree.
-                    by the Federal District University Center (UDF). I am always looking to improve my techniques and knowledge through courses.
-                    focused on technology areas. Abstracting and solving problems is what motivates me to continue on this path, this for me goes far beyond just work
-                    being in touch with code is something I actually treat as beyond work, something I'm obsessed with.<br />
-                    <br />I have experience in the area of ​​technology through an internship at the Federal Council of Engineering and Agronomy (Confea), using the main tools
-                    ASP.NET Core, C#, .NET, Entity Framework, Microsotft Sql Server and Git, developing software, collaborating on large-scale projects, participating in the preparation and
-                    validating software requirements, monitoring projects in production and acquiring practical knowledge about the software development life cycle.
+                <p>My name is Luan Henrique. Technology has always been present in my life since my childhood as I have always liked games, whether on a console or on a computer. 
+                    The codes came a little later in my life but upon first contact I was sure that this was my passion.<br />
+                    <br />I am currently an intern at the Federal Council of Engineering and Agronomy, a federal body that controls and supervises the exercise of the profession of engineers and architects in Brazil, as a Web Developer, 
+                    I work developing software, APIs, collaborating on large-scale projects, participating in the preparation and
+                    validating software requirements, monitoring projects in production,acquiring practical knowledge about the software development life cycle and carrying out maintenance so that the professionals governed by this body have quality, safety and ease according to your needs. 
+                    C#, .NET, .NET Core, ASP.NET, ASP.NET Core, SQL Server, GitLab, JavaScript and API in .NET Core have been used.
                 </p>
                 <Grid className="BioGridSkills">
                     <section>
@@ -67,7 +65,7 @@ export default function Bio() {
                 </Grid>
             </Grid>
             <section className="SectionBioContacts">
-                <h4>My links:</h4>
+                <h4>My contact links: </h4>
                 <a href="https://www.linkedin.com/in/luan-henrique-47ab98254/" target="_blank"><img src={Linkedin} /></a>
                 <a href="https://github.com/Luanh03" target="_blank"><img src={Github} /></a>
             </section>

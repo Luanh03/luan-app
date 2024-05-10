@@ -127,6 +127,7 @@ body {
   font-size: 175%;
   font-family: 'Courier New', Courier, monospace;
   padding: 70px;
+  text-align: left;
 }
 
 .BioGrid{
@@ -161,6 +162,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
   padding: 40px;
+  text-align: left;
 }
 
 .BioGridSkills > section {
@@ -274,4 +276,31 @@ body {
 
 .CardProj_Button:hover{
   background-color: #9575CD;
+}
+
+.ContactsGrid{
+  margin-top: 257px;
+  padding: 0 47px 0 47px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.ContactsGrid > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    letter-spacing: 3px;
+}
+
+.ContactsGrid > p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 150%;
+  padding: 40px;
+  margin-top: 127px;
+}
+
+.ContactsGrid > a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 350%;
 }
