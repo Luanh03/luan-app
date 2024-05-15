@@ -4,9 +4,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Grid from '@mui/material/Grid';
 import Workshop from '../images/Wokshop.jpg';
-import { TbBrandCSharp } from "react-icons/tb";
-import { SiMicrosoftsqlserver } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
+import SqlServer from '../images/SqlServer.svg';
+import CSharp from '../images/C-sharp.svg';
 
 
 export default function Projects(){
@@ -19,8 +18,8 @@ export default function Projects(){
             scrollTrigger: {
                 trigger: ".GridProj",
                 scrub: 1,
-                start: "top 310px",
-                end: "bottom 450px",
+                start: "top 710px",
+                end: "bottom 850px"
             }
         })
         return () => {
@@ -37,9 +36,8 @@ export default function Projects(){
                     <img src={Workshop} />
                     <div className="CardProj_Footer">
                         <div className="CardProj_Icons">
-                            <TbBrandCSharp />
-                            <SiMicrosoftsqlserver />
-                            <FaGitAlt />
+                            <img src={CSharp} />
+                            <img src={SqlServer} />
                         </div>
                         <button className="CardProj_Button">Rota</button>
                     </div>
