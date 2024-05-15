@@ -6,9 +6,11 @@ export default function Contacts(){
     return (
         <Grid id="Contacts"className="ContactsGrid">
             <h1>Contacts</h1>
-            <p>Espero que tenha gostado, muito obrigado pela visita, me envie um e-mail para que possamos marcar uma conversa. Você também pode me encontar no meu 
-            <a target="_blank" href="https://www.linkedin.com/in/luan-henrique-47ab98254/"> Linkedin </a>se for da sua preferência.</p>
-            <a href="mailto:luanhcosta03@gmail.com"><MdOutlineEmail />luanhcosta03gmail.com</a>
+            <p>Thanks for visiting, I hope you enjoyed it. Send me an email so I can schedule a conversation. If you prefer, you can find me on my
+            <a target="_blank" href="https://www.linkedin.com/in/luan-henrique-47ab98254/"> Linkedin </a></p>
+            <div>
+                <a href="mailto:luanhcosta03@gmail.com"><MdOutlineEmail />luanhcosta03gmail.com</a>
+            </div>
         </Grid>
     );
 };

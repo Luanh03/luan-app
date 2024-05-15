@@ -18,7 +18,7 @@ export default function Projects(){
             opacity: 1,
             scrollTrigger: {
                 trigger: ".GridProj",
-                scrub: true,
+                scrub: 1,
                 start: "top 310px",
                 end: "bottom 450px",
             }
