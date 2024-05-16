@@ -61,6 +61,10 @@ body {
   cursor: pointer;
 }
 
+.GridNavBar > button > img{
+  width: 25px;
+}
+
 .GridHeader{
   margin-top: 257px;
   padding: 0 47px 0 47px;
@@ -159,7 +163,7 @@ body {
 }
 
 .BioGridInfo > p{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 150%;
   padding: 40px;
   text-align: left;
@@ -192,7 +196,7 @@ body {
 }
 
 .SectionBioContacts > h4 {
-  font-size: 300%;
+  font-size: 200%;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -313,6 +317,6 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 250%;
-  color: purple;
+  font-size: 180%;
+  color: #008000;
 }
