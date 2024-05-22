@@ -129,7 +129,7 @@ body {
 
 .GridHeader > p{
   font-size: 175%;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 70px;
   text-align: left;
 }
@@ -225,7 +225,9 @@ body {
   letter-spacing: 3px;
 }
 
-.CardProj_Grid{
+
+
+/* .CardProj_Grid{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +286,7 @@ body {
 
 .CardProj_Button:hover{
   background-color: #9575CD;
-}
+} */
 
 .ContactsGrid{
   margin-top: 257px;
@@ -301,8 +303,8 @@ body {
 }
 
 .ContactsGrid > p {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 160%;
   padding: 40px;
   margin-top: 127px;
 }
@@ -312,11 +314,21 @@ body {
   font-size: 350%;
 }
 
+
 .ContactsGrid > div > a{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 180%;
-  color: #008000;
+  color: #6495ED;
+}
+
+.ContactsGrid > p > a {
+  color: #0000CD;
+}
+
+.ContactsGrid > p > a:hover {
+  cursor: grabbing;
+  opacity: 0.5;
 }

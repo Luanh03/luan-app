@@ -30,18 +30,13 @@ export default function Projects(){
     return(
         <Grid className="GridProj">
             <h1 id="Projects">Projects</h1>
-            <Grid className="CardProj_Grid">
-                <section>
-                    <h3>Workshop</h3>
+            <Grid className="GridProj">
+                <div>
                     <img src={Workshop} />
-                    <div className="CardProj_Footer">
-                        <div className="CardProj_Icons">
-                            <img src={CSharp} />
-                            <img src={SqlServer} />
-                        </div>
-                        <button className="CardProj_Button">Rota</button>
-                    </div>
-                </section>
+                </div>
+                <div>
+                    <p>Skill</p>
+                </div>
             </Grid>
         </Grid>
     );

@@ -15,7 +15,7 @@ export default function Home(){
     
     const tema = {
         backgroundColor: escuro ? '#E6E6FA' : '#292929',
-        color: escuro ?  '#008000' : '#008000', 
+        color: escuro ?  '#6495ED' : '#6495ED', 
     }
 
     function mudarTema(){
