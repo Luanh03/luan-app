@@ -142,18 +142,21 @@ body {
 }
 
 .BioGrid > h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 500%;
   letter-spacing: 3px;
 }
 
-.line::after {
-  content: " ";
-  background-color: thistle;
-  display: flex;
-  flex-direction: row;
+.BioHeader::after {
+  content: "";
+  width: 37%;
   height: 6px;
-  width: 30%;
+  background-color: currentColor;
+  display: block;
 
 }
 

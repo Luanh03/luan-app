@@ -36,7 +36,7 @@ export default function Bio() {
 
     return (
         <Grid id="Bio" className="BioGrid">
-            <h1 class="line">About me</h1>
+            <h1 class="BioHeader">About me</h1>
             <Grid className="BioGridInfo">
                 <p>My name is Luan Henrique. Technology has always been present in my life since my childhood as I have always liked games, whether on a console or on a computer. 
                     The codes came a little later in my life but upon first contact I was sure that this was my passion.<br />
