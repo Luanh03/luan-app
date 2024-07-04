@@ -1,5 +1,16 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  width:'100%';
+  height: '100vh';
+  display: 'flex';
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +18,320 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.GridNavBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+
+.GridNavBar > a{
+  transition: 0.3s;
+}
+
+.GridNavBar > a:hover{
+  opacity: 0.2;
+}
+
+.GridNavBar > ul{
+  list-style: none;
+  display: flex;
+}
+
+.GridNavBar > ul > li{
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.GridNavBar > ul > li > a{
+  transition: 0.3s;
+}
+
+.GridNavBar > ul > li > a:hover{
+  opacity: 0.2;
+}
+
+.GridNavBar > button{
+  left: 850px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.GridNavBar > button > img{
+  width: 25px;
+}
+
+.GridHeader{
+  margin-top: 257px;
+  padding: 0 47px 0 47px;
+}
+
+@keyframes typingHeader{
+  from{
+    width: 0;
+  }
+  to{
+    width: 12em;
+  }
+}
+
+@keyframes blinkCursorHeader{
+  from{
+    border-right: rgba(255, 255, 255, 0.75);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
+.typing-animation-Header{
+  animation: blinkCursorHeader 700ms infinite normal steps(50), 
+  typingHeader 5s steps(50) normal both;
+}
+
+.GridHeader > h1{
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 570%;
+  height: 100px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typingSubHeader{
+  from{
+    width: 0;
+  }
+  to{
+    width: 14em;
+  }
+}
+
+.typing-animation-SubHeader{
+    animation: blinkCursorHeader 700ms infinite normal steps(50), 
+    typingSubHeader 5s steps(50) normal both;
+}
+
+.GridHeader > h2{
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 350%;
+  height: 70px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.GridHeader > p{
+  font-size: 175%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 70px;
+  text-align: left;
+}
+
+.BioGrid{
+  margin-top: 357px;
+  padding: 0 47px 0 47px;
+  transform: translate(-900px);
+  opacity: 0;
+}
+
+.BioGrid > h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 500%;
+  letter-spacing: 3px;
+}
+
+.BioHeader::after {
+  content: "";
+  width: 37%;
+  height: 6px;
+  background-color: currentColor;
+  display: block;
+
+}
+
+.BioGridInfo{
+  display: flex;
+  gap: 70px;
+}
+
+.BioGridInfo > p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+  padding: 40px;
+  text-align: left;
+}
+
+.BioGridSkills > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  width: 190px;
+  padding: 20px 0 20px 0;
+}
+
+.BioGridSkills> section > h2{
+  font-size: 280%;
+}
+
+.BioGridSkills > section > img{
+  height: 50px;
+  width: 35px;
+}
+
+.SectionBioContacts{
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.SectionBioContacts > h4 {
+  font-size: 200%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.SectionBioContacts > a > img{
+  width: 50px;
+}
+
+.SectionBioContacts > a > img{
+  transition: 0.5s;
+}
+
+.SectionBioContacts > a > img:hover{
+  opacity: 0.3;
+}
+
+.GridProj{
+  margin-top: 257px;
+  padding: 0 47px 0 47px;
+  transform: translate(-900px);
+  opacity: 0;
+}
+
+.GridProj > h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 500%;
+  letter-spacing: 3px;
+}
+
+
+
+/* .CardProj_Grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 97px;
+}
+
+.CardProj_Grid > section{
+  width: 400px;
+  height: 400px;
+  background-color: var(--soft-white);
+  color: var(--gray);
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #22222270;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CardProj_Grid h3{
+  font-size: 150%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.CardProj_Grid img{
+  width: 400px;
+  object-fit: cover;
+}
+
+.CardProj_Footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CardProj_Icons {
+  display: flex;
+  gap: 10px;
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.CardProj_Icons > img {
+  width: 50px;
+}
+
+.CardProj_Button{
+  width: 50px;
+  border-radius: 8px;
+  font-size: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 5px 0 5px;  
+}
+
+.CardProj_Button:hover{
+  background-color: #9575CD;
+} */
+
+.ContactsGrid{
+  margin-top: 257px;
+  padding: 0 47px 0 47px;
+  transform: translate(-900px);
+  opacity: 0;
+  height: 60vh;
+}
+
+.ContactsGrid > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    letter-spacing: 3px;
+}
+
+.ContactsGrid > p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 160%;
+  padding: 40px;
+  margin-top: 127px;
+}
+
+.ContactsGrid > a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 350%;
+}
+
+
+.ContactsGrid > div > a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 180%;
+  color: #6495ED;
+}
+
+.ContactsGrid > p > a {
+  color: #0000CD;
+}
+
+.ContactsGrid > p > a:hover {
+  cursor: grabbing;
+  opacity: 0.5;
 }
